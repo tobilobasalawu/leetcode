@@ -20,8 +20,6 @@ def mySqrt(x: int) -> int:
             right = mid - 1
     
     return answer
-
-
         
 
 
