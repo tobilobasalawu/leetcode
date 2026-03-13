@@ -1,4 +1,4 @@
-def mySqrt(self, x: int) -> int:
+def mySqrt(x: int) -> int:
     if x < 2:
         return x
     
