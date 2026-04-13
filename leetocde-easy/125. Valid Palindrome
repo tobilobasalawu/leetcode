@@ -1,0 +1,16 @@
+class Solution:
+    def isPalindrome(self, s: str) -> bool:
+        s = s.lower()
+        new_s = ''
+        
+        alphabet = 'abcdefghijklmnopqrstuvwxyz0123456789'
+        
+        for i in s:
+            if i in alphabet:
+                new_s += i
+            else:
+                continue
+        
+        backward = new_s[::-1] 
+        
+        return True if backward == new_s else False
